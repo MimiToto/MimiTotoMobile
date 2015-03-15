@@ -8,4 +8,12 @@
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:text="Teste"
+        android:id="@+id/button"
+        android:onClick="buttonTest"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
